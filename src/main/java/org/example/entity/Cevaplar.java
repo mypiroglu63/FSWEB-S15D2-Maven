@@ -1,6 +1,6 @@
-//package org.example.entity;
-//
-//public class Cevaplar {
+package org.example.entity;
+
+public class Cevaplar {
 
 //    1. Tüm çalışanların üzerindeki tasklar nelerdir?
 //
@@ -32,4 +32,4 @@
 //
 //
 //    Bu kod, TaskData sınıfındaki getIntersect metodunu kullanarak kesişim kümelerini bulur ve birden fazla çalışana atanmış görevleri toplar.
-//}
+}
