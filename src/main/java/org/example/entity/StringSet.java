@@ -10,7 +10,7 @@ public class StringSet {
 
     public static List<String> findUniqueWords(String text) {
         // 1. İstenmeyen karakterleri temizle
-        String cleanedText = text.replaceAll("[.,!?\"-]", "").toLowerCase();
+        String cleanedText = text.replaceAll("[^a-zA-Z\\s]", "").toLowerCase();
 
         // 2. Kelimeleri ayır ve bir sete ekle
         Set<String> uniqueWords = new HashSet<>(Arrays.asList(cleanedText.split("\\s+")));
